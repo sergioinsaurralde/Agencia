@@ -41,7 +41,7 @@ function Home() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
             <Navbar/>
-            <div className="pt-28">
+            <div data-scroll-section className="pt-28">
                 <Header/>
                 <Incentives/>
                 <UseCases/>

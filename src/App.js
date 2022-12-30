@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import store from './store';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Provider } from "react-redux";
-import Error404 from "containers/erros/Error404";
+import Error404 from "containers/errors/Error404";
 import Home from "containers/pages/Home";
 import Services from "containers/pages/Services";
 import Cases from "containers/pages/Cases";
